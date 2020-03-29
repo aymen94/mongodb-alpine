@@ -1,3 +1,6 @@
+[![docker_pull_badge](https://badgen.net/docker/pulls/aymen94/mongodb-alpine)](https://hub.docker.com/r/aymen94/mongodb-alpine/)
+[![idocker_size_badge](https://badgen.net/docker/size/aymen94/mongodb-alpine)](https://hub.docker.com/r/aymen94/mongodb-alpine/)
+
 # MongoDB Alpine
 Alpine Linux with MongoDB.
 
