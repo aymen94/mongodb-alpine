@@ -19,12 +19,12 @@ To re-build this image from the dockerfile:
 $ docker build -t aymen94/mongodb-alpine .
 ```
 
-## run
+## Run
 ```
 $ docker run -d --name mongodb -p 27017:27017 aymen94/mongodb-alpine
 ```
 
-### Run with data mounted to the native host
+## Run with data mounted to the native host
 
 ```
 $ docker run -v ~/my_mongo_data:/data/db -it -p 27017:27017 aymen94/mongodb-alpine
@@ -42,7 +42,7 @@ $ docker exec -ti mongodb mongo
 The mongo shell client can also be run its own container:
 
 ## Configuration 
-To change internal default configuration
+To change internals default configurations
 ```
 MONGODB_STORAGE_ENGINE="wiredTiger"
 MONGODB_JOURNALING="nojournal"
