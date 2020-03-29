@@ -15,14 +15,10 @@ To re-build this image from the dockerfile:
 ```
 $ docker build -t aymen94/mongodb-alpine .
 ```
-Usage
 
 ## run
 ```
 $ docker run -d --name mongodb -p 27017:27017 aymen94/mongodb-alpine
-```
-```
-$ docker run -d --name mongodb -p 27017:27017
 ```
 
 ### Run with data mounted to the native host
