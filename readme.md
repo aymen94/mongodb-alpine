@@ -2,8 +2,8 @@
 Alpine Linux with MongoDB.
 
 ## Information
-> apline 3.9
-> MongoDB v4.0.5
+* apline 3.9
+* MongoDB v4.0.5
 
 ## Install
 
