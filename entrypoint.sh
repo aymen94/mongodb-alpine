@@ -1,9 +1,5 @@
 #!/bin/sh
 
-if [ -e /.initialize ];then
-  . /init.sh
-fi
-
 cat <<"EOF"
        __  __                                   _____    ____                     _           _                 
       |  \/  |                                 |  __ \  |  _ \                   | |         (_)                
