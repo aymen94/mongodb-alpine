@@ -31,15 +31,15 @@ $ docker run -v ~/my_mongo_data:/data/db -it -p 27017:27017 aymen94/mongodb-alpi
 ```
 
 ## Run a shell session
+To use the mongo shell client:
 
 ```
 $ docker exec -ti mongodb sh
 ```
-To use the mongo shell client:
+The mongo shell client can also be run its own container:
 ```
 $ docker exec -ti mongodb mongo
 ```
-The mongo shell client can also be run its own container:
 
 ## Configuration 
 To change internals default configurations
